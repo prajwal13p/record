@@ -1,0 +1,4 @@
+for i in range(100):
+    now = time.strftime("%a, %d %b %Y %H:%M:%S", time.localtime(time.time()))
+    print(now)
+    time.sleep(2)
